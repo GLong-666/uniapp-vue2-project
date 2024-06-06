@@ -1,10 +1,18 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
+	"pages": [
+		{
+			"path": "pages/dome/index",
+			"style": {
+				"navigationBarTitleText": "dome"
+			}
+		},
+		{
+			"path": "pages/dome_2/index",
+			"style": {
+				"navigationBarTitleText": "dome_2"
+			}
 		}
-	}],
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
