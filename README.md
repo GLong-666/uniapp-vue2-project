@@ -22,7 +22,10 @@
 >> index.css (当然如果你想的话css也可以抽离出来)  
 
 ### components文件夹
-公共组件、功能存放的位置，放之前掂量掂量，呵
+公共组件、功能存放的位置，放之前掂量掂量，呵  
+只要组件路径符合规范（具体见下），就可以不用引用、注册，直接在页面中使用  
+1、安装在项目根目录的components目录下，并符合components/组件名称/组件名称.vue  
+2、安装在uni_modules下，路径为uni_modules/插件ID/components/组件名称/组件名称.vue
 
 ### mixin文件
 混入，慎用
